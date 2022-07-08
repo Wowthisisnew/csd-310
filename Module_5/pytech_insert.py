@@ -5,6 +5,7 @@ db = client.pytech
 print(db.list_collection_names())
 
 import getch
+
 students = db["students"]
 
 nick = {"student_id": "1007", 
